@@ -1,0 +1,68 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(209, 189, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgb(143, 247, 247);
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 30rem;
+    box-shadow: 0px 0px 2px rgba(198, 193, 193, 0.1);
+    width: 20rem;
+}
+
+.container:hover {
+
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.1);
+
+}
+
+h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 1.5rem;
+}
+
+.form-grp label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.form-grp input {
+    width: 18rem;
+    padding: .5rem;
+    font-size: .9rem;
+    border: 1px rgb(163, 136, 136);
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+}
+
+.result {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+
+.calculate-btn {
+    padding: .3rem .7rem;
+    background-color: #2979ff;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bolder;
+    border-radius: .3rem;
+    cursor: pointer;
+    margin-bottom: .9rem;
+}
+
+.calculate-btn:hover {
+
+    background-color: #6495f7;
+
+}
